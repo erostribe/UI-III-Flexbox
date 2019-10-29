@@ -102,5 +102,84 @@ nav a:first-child {
 	margin-left: 0;
 }
 
+/* nav div {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+} */
 
+nav img {
+	margin: 0 auto;
+}
+
+img {
+	margin-top: 25px;
+}
+
+.website-wrapper {
+	width: 880px;
+	margin: 30px auto 0 auto;
+	z-index: 1;
+}
+
+.website-wrapper-services {
+	width: 880px;
+	z-index: 1;
+	margin: 0px auto 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	position: relative;
+	height: 490px;
+}
+
+header div {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0;
+	width: 47%;
+}
+
+header div h1 {
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+header div h1 span {
+	display: block;
+}
+
+header div a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	width: 150px;
+	padding: 4px 20px;
+}
+
+header img {
+	margin: 0px;
+	position: absolute;
+	right: 0;
+}
+
+.section-one {
+	margin-top: 39px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.section-one div {
+	width: 430px;
+	height: 100px;
+}
+
+.section-one div p {
+	line-height: 1.16;
+}
 
